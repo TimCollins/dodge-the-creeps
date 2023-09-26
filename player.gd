@@ -40,7 +40,6 @@ func _process(delta):
 		$AnimatedSprite2D.animation = "up"
 		$AnimatedSprite2D.flip_v = velocity.y > 0
 
-
 func _on_body_entered(body):
 	hide()
 	hit.emit()
